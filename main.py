@@ -22,7 +22,7 @@ class HTMLParser:
 
 
 driver = webdriver.Chrome()
-driver.get("file:///home/rk/Documents/6thsem/PA/dashboard.html")
+driver.get("file:///home/User/Documents/6thsem/PA/dashboard.html")
 parser = HTMLParser("dashboard.html")
 
 def display(number, displayID):
