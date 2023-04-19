@@ -1,0 +1,61 @@
+h1 {
+    color: floralwhite;
+}
+h2 {
+    color: floralwhite;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Different color for table cells */
+/* Use faded colors for better visibility */
+#red {
+    background-color: #f08585;
+}
+
+#orange {
+    background-color: #ffad98;
+}
+
+#yellow {
+    background-color: #ffd89c;
+}
+
+#green {
+    background-color: #9fccad;
+}
+
+#cyan {
+    background-color: #00ffff;
+}
+
+#blue {
+    background-color: #a0c4ff;
+}
